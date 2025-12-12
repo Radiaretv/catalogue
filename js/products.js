@@ -1,37 +1,50 @@
 window.PRODUCTS = [
   {
-    "id": "mini12",
-    "sku": "MINI12",
-    "category": "mini",
-    "price": 1600000,
-    "currency": "UZS",
-    "availability_note": {
-      "ru": "Наличие уточняйте у менеджера",
-      "uz": "Mavjutlikni menejerdan soʻrang",
-      "en": "Check availability with manager"
-    },
-    "images": [
-      "img/mini12-1.jpg",
-      "img/mini12-2.jpg",
-      "img/mini12-3.jpg"
-    ],
-    "colors": [],
-    "name": {
-      "ru": "Instax Mini 12",
-      "uz": "Instax Mini 12",
-      "en": "Instax Mini 12"
-    },
-    "desc": {
-      "ru": "Instax Mini 12 — короткое описание.",
-      "uz": "Instax Mini 12 — qisqa ta'rif.",
-      "en": "Instax Mini 12 — short description."
-    },
-    "related": [
-      "mini12box",
-      "mini10"
-    ],
-    "is_new": false
+  "id": "mini12",
+  "sku": "MINI12",
+  "category": "mini",
+  "price": 1600000,
+  "currency": "UZS",
+  "availability_note": {
+    "ru": "Наличие уточняйте у менеджера",
+    "uz": "Mavjutlikni menejerdan soʻrang",
+    "en": "Check availability with manager"
   },
+
+  // ✅ фронтальные фото (ракурс 1) — листаем ЦВЕТА
+  "images": [
+    "img/mini12-b1.webp",
+    "img/mini12-f1.webp",
+    "img/mini12-g1.webp",
+    "img/mini12-p1.webp",
+    "img/mini12-w1.webp"
+  ],
+
+  // ✅ официальные названия цветов (можно потом вывести на карточке/странице)
+  "colors": [
+    { "code": "b", "name": { "en": "Pastel Blue",   "ru": "Pastel Blue",   "uz": "Pastel Blue"   }, "image": "img/mini12-b1.webp" },
+    { "code": "f", "name": { "en": "Lilac Purple", "ru": "Lilac Purple", "uz": "Lilac Purple" }, "image": "img/mini12-f1.webp" },
+    { "code": "g", "name": { "en": "Mint Green",   "ru": "Mint Green",   "uz": "Mint Green"   }, "image": "img/mini12-g1.webp" },
+    { "code": "p", "name": { "en": "Blossom Pink", "ru": "Blossom Pink", "uz": "Blossom Pink" }, "image": "img/mini12-p1.webp" },
+    { "code": "w", "name": { "en": "Clay White",   "ru": "Clay White",   "uz": "Clay White"   }, "image": "img/mini12-w1.webp" }
+  ],
+
+  "name": {
+    "ru": "Instax Mini 12",
+    "uz": "Instax Mini 12",
+    "en": "Instax Mini 12"
+  },
+  "desc": {
+    "ru": "Instax Mini 12 — короткое описание.",
+    "uz": "Instax Mini 12 — qisqa ta'rif.",
+    "en": "Instax Mini 12 — short description."
+  },
+  "related": [
+    "mini12box",
+    "mini10"
+  ],
+  "is_new": false
+},
   {
     "id": "mini12box",
     "sku": "MINI12BOX",
